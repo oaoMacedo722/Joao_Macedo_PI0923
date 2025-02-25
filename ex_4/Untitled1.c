@@ -10,7 +10,7 @@ int main(){
     scanf("%d", &cheque);
 
 if(saldo>cheque){
-       saldo-cheque = sc ;
+      sc = saldo-cheque;
     printf("%d",sc);
 }
 else{
