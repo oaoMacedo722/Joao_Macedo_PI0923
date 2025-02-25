@@ -1,12 +1,17 @@
 #include <stdio.h>
 
 int main (){
-int Num=0;
-for(int i=0;i<10;i++){
-    Num+=2;
-    printf("Num = %d,i= %d",Num,i);
-    printf("aquiFor");
+int ns;
+
+printf("Segundos: ");
+scanf("%d",&ns);
+
+int nm=ns/60;
+int nh=nm/60;
+
+printf("segundos: %d,minutos: %d,Horas:%d",ns,nm,nh);
+
 
 }
-return 0;
-}
+
+
