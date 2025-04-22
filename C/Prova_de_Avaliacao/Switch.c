@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main(){
     int num;
-    printf("escreva um numero");
+    printf("escreva um numero: ");
     scanf("%d", &num);
 
 if (num<=12){
