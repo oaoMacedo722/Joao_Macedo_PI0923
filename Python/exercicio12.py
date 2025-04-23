@@ -2,3 +2,23 @@
 #um acumulador diga quantas operações foram efetuadas. Exemplo introduzindo o número 60 o programa deve apresentar 60 a somar, dividir multiplicar e subtrair por 
 #todos os números menores que ele
 
+
+while True:
+    try:
+
+        num = int(input("Insira um numero"))
+        print()
+
+    except ValueError:
+        print("\nInsira um valor valido\n")
+
+        continue
+
+    for i in range(1, num):
+        print(f"{num} + {i} = {num + i}")
+        print(f"{num} - {i} = {num - i}")
+        print(f"{num} * {i} = {num * i}")
+        print(f"{num} / {i} = {num / i}")
+        print()
+
+    break
