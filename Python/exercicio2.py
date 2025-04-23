@@ -1,6 +1,12 @@
-num = int(input("insira um numero"))
+#Exercício 2: Ler 10 números, e determinar se o número par e número impar.
 
-if(num%2==0 and num!=2) or (num%3==0 and num!=3):
-    print("Numero nao é primo")
-else: 
-    print("Numero é primo ")    
+count= 0 
+
+
+while count< 10: 
+    num= int(input("escreva um numero: "))
+    count += 1 
+    if num % 2 == 0:
+        print("numero é par")
+    elif num % 2 != 0: 
+        print("numero é impar")

@@ -1,26 +1,25 @@
-nomes=[]
-para = True 
+# Ler a nota de 10 alunos, calcular a media e mostrar essa média.
 
-while para : 
-  print("1 - Introduzir nomes")
-  print("2 - Listar nomes na lista")
-  print("3 - Parar programa")
-  escolha=int(input(">>"))
+num = 0
+media = 0
+notas = []
 
+while num != 10:
+    try:
+        nota = int(input("Insira uma nota de um aluno: "))
+    except ValueError:
+        print("\nPor favor insira uma nota valida.\n")
+        continue
+    
+    notas.append(nota)
+    num += 1
+    
+num = 0
 
-  
-  match escolha: 
-    case 1: 
-        nomes.append(input("Novo nome: "))
-        for i in nomes: 
-          dec = input("quer continuar [S] ou [N]: ")
-          if dec == "n" or dec == "N": 
-            break
-          nomes.append(input("Novo nome: "))
-    case 2: 
-      print(nomes)
-    case 3:
-      while para : 
-        dec = input("quer para o programa [S] ou [N]: ")
-        if dec == "N" or dec == "n": 
-          para = False  
+for i in notas:
+    media += i
+    num += 1
+
+media = media / num
+
+print(f"A media dos alunos é: {media}")
