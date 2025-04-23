@@ -1,8 +1,8 @@
-//Exercício switch: Ler para uma variável INTEIRA um número de 1 a 12 e mostrar o nome do mês correspondente. Caso o mês não existir, mostrar essa informação.
+//Exercï¿½cio switch: Ler para uma variï¿½vel INTEIRA um nï¿½mero de 1 a 12 e mostrar o nome do mï¿½s correspondente. Caso o mï¿½s nï¿½o existir, mostrar essa informaï¿½ï¿½o.
 
 #include <stdio.h>
 int main(){
-    int num;
+    int num =0;
     printf("escreva um numero: ");
     scanf("%d", &num);
 
@@ -15,7 +15,7 @@ if (num<=12){
             printf("Fevereiro");
             break;
         case 3:
-            printf("Março");
+            printf("Marï¿½o");
             break;
         case 4:
             printf("Abril");

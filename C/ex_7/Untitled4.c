@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-    int nota1;
-    int nota2;
-    int nota3;
-    int nf1;
-    int nf2;
-    int nf3;
+    int nota1 = 0;
+    int nota2 = 0;
+    int nota3 = 0;
+    int nf1 = 0;
+    int nf2 = 0;
+    int nf3 = 0;
 
     printf("Escreva a primera nota: ");
     scanf("%d", &nota1);

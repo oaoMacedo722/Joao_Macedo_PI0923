@@ -4,8 +4,7 @@
 int main(){
 
     float notas[10];
-    float soma;
-    float media;
+    float soma = 0; media = 0;
     int alunos = 0;
 
     for(int i = 0; i < 10; i++){

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main (){
-int ns;
+int ns = 0;
 
 printf("Segundos: ");
 scanf("%d",&ns);

@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
     char nome[50];
-    int valor;
+    int valor = 0 , vd = 0;
     float descontos;
-    int vd;
+    
 
     printf("Escreva o seu nome: ");
     scanf("%s",&nome);

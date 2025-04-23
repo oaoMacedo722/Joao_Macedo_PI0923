@@ -1,7 +1,7 @@
 #include <stdio.h>
 // Ler 10 números, e determinar o número par e numero impar….
 int main(){
-    int n;
+    int n = 0;
 
     for(int i = 1; i<=10; i++){
             

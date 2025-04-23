@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int saldo;
-    int cheque;
-    int sc;
+    int saldo = 0 ;
+    int cheque = 0;
+    int sc = 0;
 
     printf("Insira o seu saldo: ");
     scanf("%d", &saldo);
