@@ -3,6 +3,8 @@
 int main() {
     int num1, num2, num3;
 
+    int maior = num1;
+    int menor = num1;
 
     printf("Digite o primeiro numero: ");
     scanf("%d", &num1);
@@ -14,8 +16,7 @@ int main() {
     scanf("%d", &num3);
 
 
-    int maior = num1;
-    int menor = num1;
+ 
 
 
     if (num2 > maior) {
